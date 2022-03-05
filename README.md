@@ -10,7 +10,7 @@ Steps to run and test this
 3. Bring up the localstack by running
 `docker-compose up`
 
-Once the local stack is ready, dynamo db will come and create the table auth_data and insert two rows into it.
+Once the local stack is ready, dynamo db will come up and create the table auth_data and insert two rows into it.
 
 4. Then test the application by running `npx ts-node index.js`
 
