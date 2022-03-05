@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "outDir": "dist",
+    "lib": ["ES2020"],
+    "baseUrl": ".",
+    "paths": {
+      "@cmp/src/*": ["src/*"],
+      "@cmp/test/*": ["test/*"]
+    }
+  },
+  "ts-node": {
+    "files": true
+  }
+}
